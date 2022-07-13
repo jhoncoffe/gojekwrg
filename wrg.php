@@ -109,7 +109,7 @@ function change(){
          setpin:
          echo "\n".color("nevy","?] Mau set pin?: y/n ");
          $pilih1 = trim(fgets(STDIN));
-         if($pilih1 == "y" || $pilih1 == "Y"){
+         //if($pilih1 == "y" || $pilih1 == "Y"){
          if($pilih1 == "y" && strpos($no, "628")){
          echo color("red","========( PIN ANDA = 112233 )========")."\n";
          $data2 = '{"pin":"112233"}';
